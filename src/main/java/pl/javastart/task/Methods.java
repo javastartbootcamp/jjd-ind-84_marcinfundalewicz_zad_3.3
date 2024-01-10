@@ -7,11 +7,11 @@ public class Methods {
     }
 
     boolean isOdd(int number) {
-         return number % 2 != 0;
+        return number % 2 != 0;
     }
 
     double circleField(double radius) {
-        return radius*radius * 3.14;
+        return radius * radius * 3.14;
     }
 
     int power(int number) {
