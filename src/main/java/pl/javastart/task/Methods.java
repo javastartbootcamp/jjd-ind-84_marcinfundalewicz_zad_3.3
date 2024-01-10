@@ -3,23 +3,18 @@ package pl.javastart.task;
 public class Methods {
 
     boolean isEven(int number) {
-        if (number % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return number % 2 == 0;
     }
+
     boolean isOdd(int number) {
-        if (number % 2 == 0) {
-            return false;
-        } else {
-            return true;
-        }
+         return number % 2 != 0;
     }
-    double circleField(double beam){
-        return beam*beam*(3.14);
+
+    double circleField(double radius) {
+        return radius*radius * 3.14;
     }
-    int power(int number){
-        return number*number;
+
+    int power(int number) {
+        return number * number;
     }
 }
